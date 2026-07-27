@@ -8,7 +8,7 @@ export function Story() {
       <div className="absolute left-1/2 top-0 h-full w-px bg-gradient-to-b from-transparent via-[#68212a]/35 to-transparent" />
       <div className="page-shell relative">
         <div className="max-w-2xl">
-          <SectionHeading eyebrow="Chapter I" title="Before there was us." />
+          <SectionHeading eyebrow="Глава I" title="Преди да има 'Ние'." />
         </div>
         <div className="mx-auto mt-20 max-w-3xl sm:mt-28">
           {storyLines.map((line, index) => {

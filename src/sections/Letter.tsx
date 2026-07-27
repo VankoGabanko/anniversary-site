@@ -8,13 +8,13 @@ export function Letter() {
       <div className="page-shell relative">
         <Reveal className="mx-auto max-w-3xl">
           <div className="mb-12 text-center">
-            <p className="eyebrow">A letter for you</p>
+            <p className="eyebrow">Писмо ми напиши....</p>
             <div className="gold-line mx-auto" />
           </div>
           <article className="relative border border-[#c9a75d]/12 bg-[linear-gradient(145deg,rgba(30,23,20,.76),rgba(9,8,8,.92))] px-6 py-12 shadow-[0_45px_120px_rgba(0,0,0,.55)] sm:px-14 sm:py-16 md:px-20">
             <span className="absolute left-4 top-4 h-10 w-10 border-l border-t border-[#c9a75d]/30" />
             <span className="absolute bottom-4 right-4 h-10 w-10 border-b border-r border-[#c9a75d]/30" />
-            <p className="font-['Petit_Formal_Script'] text-2xl text-[#e0c98e] sm:text-3xl">Dear Moni,</p>
+            <p className="font-['Petit_Formal_Script'] text-2xl text-[#e0c98e] sm:text-3xl">Скъпа Мони,</p>
             <div className="mt-10 space-y-5">
               {letterParagraphs.map((paragraph, index) => (
                 <p
@@ -29,7 +29,7 @@ export function Letter() {
             </div>
             <div className="mt-12">
               <p className="font-['Petit_Formal_Script'] m-0 text-2xl leading-relaxed text-[#e0c98e] sm:text-3xl">
-                Ivan <span className="text-[#8c1c28]">♥</span>
+                Ванко Габанко <span className="text-[#8c1c28]">♥</span>
               </p>
             </div>
           </article>

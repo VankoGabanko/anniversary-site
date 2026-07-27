@@ -30,9 +30,9 @@ export function Gallery() {
   return (
     <section className="section-space">
       <div className="page-shell">
-        <SectionHeading eyebrow="Chapter III" title="Little pieces of forever." />
+        <SectionHeading eyebrow="Глава III" title="Малка част от неповторимите ни моменти." />
         <p className="mt-7 max-w-lg text-sm font-light leading-7 text-[#958e85]">
-          Photo placeholders for now. Soon, every frame here will be one of ours.
+          Твоя фотографска задача е да пълниш този албум.
         </p>
         <div className="mt-16 columns-1 gap-4 sm:columns-2 lg:columns-3">
           {galleryImages.map((image, index) => (

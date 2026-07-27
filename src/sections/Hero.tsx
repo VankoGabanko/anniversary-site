@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { FiArrowDown } from 'react-icons/fi'
-import heroImage from '../assets/images/cinematic-placeholder.png'
+import heroImage from '../assets/images/black_screen.png'
 import { GoldButton } from '../components/GoldButton'
 
 export function Hero() {
@@ -45,7 +45,7 @@ export function Hero() {
           transition={{ delay: 0.4, duration: 1.25, ease: [0.22, 1, 0.36, 1] }}
           className="serif m-0 text-[clamp(4.1rem,17vw,9.5rem)] font-normal leading-[0.82] tracking-[-0.055em] text-[#f7f1e8]"
         >
-          To Moni <span className="inline-block text-[0.55em] text-[#8e1b28]">♥</span>
+          Мони <span className="inline-block text-[0.55em] text-[#8e1b28]">♥</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -53,9 +53,9 @@ export function Hero() {
           transition={{ delay: 0.9, duration: 1 }}
           className="serif mx-auto mt-8 max-w-lg text-xl font-normal italic leading-relaxed text-[#d4cdc2] sm:text-2xl"
         >
-          One month down.
+          Един месец долу.
           <br />
-          A lifetime to go.
+          Още много за напред.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 18 }}
@@ -63,7 +63,7 @@ export function Hero() {
           transition={{ delay: 1.25, duration: 0.8 }}
           className="mt-10"
         >
-          <GoldButton onClick={beginStory}>Begin Our Story</GoldButton>
+          <GoldButton onClick={beginStory}>Започни историята ни...</GoldButton>
         </motion.div>
       </motion.div>
 

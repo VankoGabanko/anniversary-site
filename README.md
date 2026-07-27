@@ -2,6 +2,10 @@
 
 A premium cinematic one-month anniversary experience built with React, TypeScript, Vite, Tailwind CSS, and Framer Motion.
 
+## Live website
+
+https://vankogabanko.github.io/anniversary-site/
+
 ## Features
 
 - Cinematic loading sequence and full-screen hero

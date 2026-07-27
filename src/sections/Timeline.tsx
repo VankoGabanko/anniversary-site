@@ -6,7 +6,7 @@ export function Timeline() {
   return (
     <section className="section-space bg-[linear-gradient(180deg,transparent,rgba(73,11,19,.11),transparent)]">
       <div className="page-shell">
-        <SectionHeading eyebrow="Chapter II" title="The moments that made us." />
+        <SectionHeading eyebrow="Глава II" title="Бързо таймлайнче<3." />
         <div className="relative mt-20 sm:mt-28">
           <div className="absolute bottom-0 left-[0.43rem] top-0 w-px bg-gradient-to-b from-[#c9a75d]/55 via-[#73202a]/65 to-transparent md:left-1/2" />
           <div className="space-y-8 md:space-y-2">
